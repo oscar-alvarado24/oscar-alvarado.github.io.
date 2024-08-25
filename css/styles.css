@@ -1,0 +1,143 @@
+:root {
+    --pastel-primary: #FFD1DC;
+    --pastel-secondary: #E0F0E3;
+    --pastel-accent: #B5EAD7;
+    --text-color: #4A4A4A;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    color: var(--text-color);
+    background-color: var(--pastel-secondary);
+}
+
+.navbar {
+    background-color: var(--pastel-primary);
+}
+
+.span-sombreado {
+    background-color: #7bc2a8; /* Color de fondo similar al de la imagen */
+    color: #FFFFFF; /* Color del texto */
+    padding: 5px 10px; /* Espaciado interno */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Sombra */
+    font-family: Arial, sans-serif; /* Fuente (puedes ajustar según tu preferencia) */
+    font-size: 14px; /* Tamaño del texto */
+}
+.jumbotron {
+    background-color: var(--pastel-accent);
+    padding: 2rem;
+    margin-bottom: 2rem;
+}
+
+.project-card {
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+}
+
+.project-image-container {
+    width: 100%;
+    height: 200px; /* Ajusta esta altura según tus necesidades */
+    overflow: hidden;
+    background-color: #6D8D7E; /* Color de fondo para la imagen */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.project-image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+}
+
+.card-body {
+    padding: 1.25rem;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.badge {
+    font-weight: normal;
+    padding: 0.5em 0.8em;
+}
+
+.tech-icon {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+}
+
+#experiencia {
+    color: var(--pastel-text);
+}
+
+.experience-container {
+    background-color: var(--pastel-background);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.experience-item {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: var(--pastel-card);
+    border: 1px solid var(--pastel-primary);
+}
+
+.experience-icon {
+    font-size: 24px;
+    margin-right: 15px;
+    color: var(--pastel-accent);
+}
+
+.experience-content {
+    flex-grow: 1;
+}
+
+.experience-content h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+    color: var(--pastel-text);
+}
+
+.experience-content .company {
+    font-size: 14px;
+    color: var(--pastel-text);
+    opacity: 0.8;
+    margin-bottom: 5px;
+}
+
+.experience-content .description {
+    font-size: 14px;
+    color: var(--pastel-text);
+    opacity: 0.7;
+}
+
+.experience-date {
+    font-size: 14px;
+    color: #6D8D7E;
+    font-weight: bold;
+}
+
+h2 {
+    color: var(--pastel-text);
+}
+
+h2 i {
+    margin-right: 10px;
+    color: var(--pastel-primary);
+}
