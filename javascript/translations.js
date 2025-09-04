@@ -10,7 +10,7 @@ const translations = {
         'about-title': 'Sobre mí',
         'about-content': 'Soy Desarrollador Full Stack con sólida experiencia en el diseño e implementación de microservicios escalables, APIs RESTful y GraphQL y aplicaciones cloud-native. Mi mayor especialidad es Java (Spring Boot, Spring WebFlux), aunque también trabajo con confianza en Python, Node.js y JavaScript.<br><br>A lo largo de mi carrera he:',
         'about-list': `<li>Diseñado y desplegado microservicios reactivos y orientados a eventos, mejorando la escalabilidad y capacidad de respuesta de los sistemas.</li>
-        <li>Construido APIs y servicios backend seguros y eficientes utilizando Java, Python, Node.js, FastAPI, Flask y Express.</li>
+        <li>Construido APIs y servicios backend seguros y eficientes utilizando lenguajes como Java, Python, Node.js y usando frameworks como Spring, FastAPI, Flask y Express.</li>
         <li>Desarrollado aplicaciones frontend modernas con Angular, React y Vue.js, garantizando alto rendimiento y una excelente experiencia de usuario.</li>
         <li>Aplicado principios de arquitectura limpia (hexagonal, onion, DDD, TDD, BDD) para entregar soluciones mantenibles y alineadas con el negocio.</li>
         <li>Implementado pipelines de CI/CD con Jenkins y Azure DevOps, asegurando entregas continuas y altos estándares de calidad.</li>
@@ -19,7 +19,7 @@ const translations = {
         'experience-title': 'Experiencia',
         'exp-job-title': 'Desarrollador de Software',
         'exp-description': 'Como desarrollador de software en la empresa, desempeñé un papel crucial en el desarrollo y éxito de nuestros proyectos. Mi responsabilidad abarcó desde la gestión integral del equipo hasta la optimización de procesos y resultados. Ayude a la creación y seguimiento de OKRs y KPIs, garantizando la alineación con los objetivos corporativos y fomentando una cultura de alto rendimiento. Mi enfoque en la gestión del talento aseguró la formación de equipos altamente competentes, mientras que mi habilidad para identificar nuevas oportunidades impulsó el crecimiento de la cuenta. En el ámbito técnico, fui fundamental en la implementación de prácticas de desarrollo avanzadas, incluyendo la optimización de aplicaciones backend, la mejora continua de la calidad del código y la adopción de metodologías ágiles. Mi participación activa en la priorización del backlog y la orientación estratégica fue clave para maximizar el valor entregado al cliente, manteniendo siempre un equilibrio óptimo entre esfuerzo y resultados.',
-        'exp-date':'ENE 2023 - MAR 2024',
+        'exp-date': 'ENE 2023 - MAR 2024',
         'projects-title': 'Mis Proyectos',
         'project1-desc': 'Proyecto para gestionar los procesos de una eps',
         'project2-title': 'Adopcion de mascotas',
@@ -38,7 +38,7 @@ const translations = {
         'about-title': 'About Me',
         'about-content': 'I am a Full Stack Developer with solid experience in designing and implementing scalable microservices, RESTful APIs and GraphQL, and cloud-native applications. My main specialty is Java (Spring Boot, Spring WebFlux), although I also work confidently with Python, Node.js and JavaScript.<br><br>Throughout my career I have:',
         'about-list': `<li>Designed and deployed reactive and event-driven microservices, improving system scalability and responsiveness.</li>
-        <li>Built secure and efficient APIs and backend services using Java, Python, Node.js, FastAPI, Flask and Express.</li>
+        <li>Built secure and efficient backend APIs and services using languages ​​like Java, Python, Node.js and using frameworks like Spring, FastAPI, Flask and Express.</li>
         <li>Developed modern frontend applications with Angular, React and Vue.js, ensuring high performance and excellent user experience.</li>
         <li>Applied clean architecture principles (hexagonal, onion, DDD, TDD, BDD) to deliver maintainable solutions aligned with business needs.</li>
         <li>Implemented CI/CD pipelines with Jenkins and Azure DevOps, ensuring continuous delivery and high quality standards.</li>
@@ -47,7 +47,7 @@ const translations = {
         'experience-title': 'Experience',
         'exp-job-title': 'Software Developer',
         'exp-description': 'As a software developer at the company, I played a crucial role in the development and success of our projects. My responsibility ranged from comprehensive team management to process and results optimization. I helped create and track OKRs and KPIs, ensuring alignment with corporate objectives and fostering a high-performance culture. My focus on talent management ensured the formation of highly competent teams, while my ability to identify new opportunities drove account growth. In the technical realm, I was instrumental in implementing advanced development practices, including backend application optimization, continuous code quality improvement, and adoption of agile methodologies. My active participation in backlog prioritization and strategic guidance was key to maximizing value delivered to the client, always maintaining an optimal balance between effort and results.',
-        'exp-date':'JAN 2023 - MAR 2024',
+        'exp-date': 'JAN 2023 - MAR 2024',
         'projects-title': 'My Projects',
         'project1-desc': 'Project to manage EPS processes',
         'project2-title': 'Pet Adoption',
@@ -66,7 +66,7 @@ const translations = {
         'about-title': 'Sobre Mim',
         'about-content': 'Sou Desenvolvedor Full Stack com sólida experiência no design e implementação de microsserviços escaláveis, APIs RESTful e GraphQL, e aplicações cloud-native. Minha principal especialidade é Java (Spring Boot, Spring WebFlux), embora também trabalhe com confiança em Python, Node.js e JavaScript.<br><br>Ao longo da minha carreira tenho:',
         'about-list': `<li>Projetado e implantado microsserviços reativos e orientados a eventos, melhorando a escalabilidade e capacidade de resposta dos sistemas.</li>
-        <li>Construído APIs e serviços backend seguros e eficientes usando Java, Python, Node.js, FastAPI, Flask e Express.</li>
+        <li>Construímos APIs e serviços de backend seguros e eficientes usando linguagens como Java, Python, Node.js e frameworks como Spring, FastAPI, Flask e Express.</li>
         <li>Desenvolvido aplicações frontend modernas com Angular, React e Vue.js, garantindo alto desempenho e excelente experiência do usuário.</li>
         <li>Aplicado princípios de arquitetura limpa (hexagonal, onion, DDD, TDD, BDD) para entregar soluções sustentáveis alinhadas com as necessidades do negócio.</li>
         <li>Implementado pipelines de CI/CD com Jenkins e Azure DevOps, garantindo entregas contínuas e altos padrões de qualidade.</li>
@@ -75,7 +75,7 @@ const translations = {
         'experience-title': 'Experiência',
         'exp-job-title': 'Desenvolvedor de Software',
         'exp-description': 'Como desnvolvedor de software na empresa, desempenhei um papel crucial no desenvolvimento e sucesso dos nossos projetos. Minha responsabilidade abrangeu desde a gestão integral da equipe até a otimização de processos e resultados. Ajudei a criar e acompanhar OKRs e KPIs, garantindo alinhamento com os objetivos corporativos e fomentando uma cultura de alto desempenho. Meu foco na gestão de talentos assegurou a formação de equipes altamente competentes, enquanto minha habilidade para identificar novas oportunidades impulsionou o crescimento da conta. No âmbito técnico, fui fundamental na implementação de práticas de desenvolvimento avançadas, incluindo otimização de aplicações backend, melhoria contínua da qualidade do código e adoção de metodologias ágeis. Minha participação ativa na priorização do backlog e orientação estratégica foi chave para maximizar o valor entregue ao cliente, mantendo sempre um equilíbrio ótimo entre esforço e resultados.',
-        'exp-date':'JAN 2023 - MAR 2024',
+        'exp-date': 'JAN 2023 - MAR 2024',
         'projects-title': 'Meus Projetos',
         'project1-desc': 'Projeto para gerenciar processos de EPS',
         'project2-title': 'Adoção de Animais',
