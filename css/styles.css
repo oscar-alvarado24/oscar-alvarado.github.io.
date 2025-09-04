@@ -143,14 +143,12 @@ body {
     font-weight: bold;
     width: 100%;
     text-align: center;
-    text-justify: inter-word;
 }
 
 .experience-text {
     height: 100%;
     width: 100%;
     text-align: justify;
-    text-justify: inter-word;
 }
 
 h2 {
@@ -164,9 +162,8 @@ h2 i {
 
 .text {
     text-align: justify;
-    text-justify: inter-word;
 }
 .linkedin-spaces{
-    margin-left: 0.15cm;
-    margin-right: 0.25cm;
+    margin-left: 0.05cm;
+    margin-right: 0.20cm;
 }

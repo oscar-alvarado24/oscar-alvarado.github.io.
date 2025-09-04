@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portafolio</title>
+    <title>Portafolio de Oscar Alvarado</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
 </head>
@@ -12,7 +12,8 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-label="Alternar menú de navegación">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
@@ -28,15 +29,16 @@
     <div class="jumbotron text-center">
         <img src="img/yo.jpg" class="rounded mx-auto d-block" alt="Oscar Alvarado" width="200" height="200">
         <h1 class="display-4">Oscar Javier Alvarado Zarabanda</h1>
-        <h3 class="display-6">Desarrollador backend java</h3>
-        <p class="lead">Soy un desarrollador apasionado por crear soluciones innovadoras</p>
+        <h3 class="display-6">Desarrollador full stack</h3>
+        <p class="lead">Diseñando software robusto y escalable en la nube con microservicios modernos.</p>
         <div>
             <span class="span-sombreado">oscar.javier_alvarado@outlook.com</span>
-            <a class="linkedin-spaces" href="https://www.linkedin.com/in/oscar-javier-alvarado-zarabanda-08b001140"
-                target="_blank">
+            <a class="linkedin-spaces" href="https://www.linkedin.com/in/oscar-javier-alvarado-zarabanda"
+                target="_blank" rel="noopener">
                 <img src="img/linkedin_icon.webp" alt="Linkedin" class="linkedin-icon">
             </a>
-            <a href="https://github.com/oscar-alvarado24" target="_blank">
+
+            <a href="https://github.com/oscar-alvarado24" target="_blank" rel="noopener">
                 <img src="img/github_icon.webp" alt="Github" class="tech-icon">
             </a>
         </div>
@@ -46,7 +48,7 @@
         <section id="sobre-mi" class="mb-5">
             <h2>Sobre mí</h2>
             <p class="text">Soy Desarrollador Backend y Full Stack con sólida experiencia en el diseño e implementación
-                de microservicios escalables, APIs RESTful y aplicaciones cloud-native. Mi mayor especialidad es Java
+                de microservicios escalables, APIs RESTful y GraphQL  y aplicaciones cloud-native. Mi mayor especialidad es Java
                 (Spring Boot, Spring WebFlux), aunque también trabajo con confianza en Python, Node.js, .NET y
                 JavaScript.
 
@@ -137,13 +139,21 @@
                                 <p class="card-text flex-grow-1">Proyecto para gestionar los procesos de una eps</p>
                                 <div class="mt-auto">
                                     <div class="d-flex flex-wrap gap-2">
+                                        <img src="img/icon_vue.png" alt="Vue.js" class="tech-icon">
+                                        <img src="img/react_icon.webp" alt="React" class="tech-icon">
                                         <img src="img/angular_icon.webp" alt="Angular" class="tech-icon">
                                         <img src="img/bootstrap_icon.webp" alt="Bootstrap" class="tech-icon">
+                                        <img src="img/Tailwind_CSS.svg" alt="Tailwind CSS" class="tech-icon">
+                                        <img src="img/css_icon.webp" alt="CSS" class="tech-icon">
                                         <img src="img/java_icon.webp" alt="Java" class="tech-icon">
+                                        <img src="img/icon-python.svg" alt="Python" class="tech-icon">
+                                        <img src="img/icon-nodo-js.svg" alt="Node.js" class="tech-icon">
                                         <img src="img/graphql_icon.png" alt="Graphql" class="tech-icon">
                                         <img src="img/grpc_icon.png" alt="gRPC" class="tech-icon">
                                         <img src="img/mysql_icon.webp" alt="MySQL" class="tech-icon">
                                         <img src="img/DynamoDB.svg" alt="Dynamo DB" class="tech-icon">
+                                        <img src="img/icon-postgresql.png" alt="PostgreSQL" class="tech-icon">
+                                        <img src="img/icon-oraclebd.svg" alt="OracleDB" class="tech-icon">
                                         <img src="img/aws_icon.webp" alt="AWS" class="tech-icon">
                                     </div>
                                     <div class="d-flex flex-wrap gap-2 mt-2">
@@ -218,13 +228,57 @@
                                         <img src="img/oracle_icon.webp" alt="Oracle" class="tech-icon">
                                     </div>
                                     <div class="d-flex flex-wrap gap-2 mt-2">
-                                        <a href="https://youtu.be/cGgNBQoJf_Y" target="_blank">
+                                        <a href="https://youtu.be/cGgNBQoJf_Y" target="_blank" rel="noopener">
                                             <img src="img/YouTube_icon.webp" alt="Video explicativo del proyecto"
                                                 class="tech-icon">
                                         </a>
                                         <a href="https://github.com/oscar-alvarado24/alquiler-maquinaria.git"
-                                            target="_blank">
+                                            target="_blank" rel="noopener">
                                             <img src="img/github_icon.webp" alt="Repositorio del proyecto"
+                                                class="tech-icon">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card project-card h-100">
+                        <div class="card-body d-flex flex-column">
+                            <div class="card-img-top project-image-container">
+                                <img src="img/Transitum_logo_en_desarrollo.png" alt="Logo Alquiler de Maquinaria"
+                                    class="project-image">
+                            </div>
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title">Transitum</h5>
+                                <p class="card-text flex-grow-1">Aplicacion de empresa de transporte de pasajeros</p>
+                                <div class="mt-auto">
+                                    <div class="d-flex flex-wrap gap-2">
+                                        <img src="img/icon_vue.png" alt="Vue.js" class="tech-icon">
+                                        <img src="img/react_icon.webp" alt="React" class="tech-icon">
+                                        <img src="img/angular_icon.webp" alt="Angular" class="tech-icon">
+                                        <img src="img/bootstrap_icon.webp" alt="Bootstrap" class="tech-icon">
+                                        <img src="img/Tailwind_CSS.svg" alt="Tailwind CSS" class="tech-icon">
+                                        <img src="img/css_icon.webp" alt="CSS" class="tech-icon">
+                                        <img src="img/java_icon.webp" alt="Java" class="tech-icon">
+                                        <img src="img/icon-python.svg" alt="Python" class="tech-icon">
+                                        <img src="img/icon-nodo-js.svg" alt="Node.js" class="tech-icon">
+                                        <img src="img/graphql_icon.png" alt="Graphql" class="tech-icon">
+                                        <img src="img/grpc_icon.png" alt="gRPC" class="tech-icon">
+                                        <img src="img/mysql_icon.webp" alt="MySQL" class="tech-icon">
+                                        <img src="img/DynamoDB.svg" alt="Dynamo DB" class="tech-icon">
+                                        <img src="img/icon-postgresql.png" alt="PostgreSQL" class="tech-icon">
+                                        <img src="img/icon-oraclebd.svg" alt="OracleDB" class="tech-icon">
+                                        <img src="img/azure_icon.svg" alt="Azure" class="tech-icon">
+                                    </div>
+                                    <div class="d-flex flex-wrap gap-2 mt-2">
+                                        <a href="" target="_blank">
+                                            <img src="img/YouTube_icon.webp" alt="Video explicativo del proyecto"
+                                                class="tech-icon">
+                                        </a>
+                                        <a href="" target="_blank">
+                                            <img src="img/gitlab_icon.webp" alt="Repositorio del proyecto"
                                                 class="tech-icon">
                                         </a>
                                     </div>
