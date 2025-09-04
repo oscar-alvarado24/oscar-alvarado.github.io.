@@ -5,10 +5,10 @@ let currentLanguage = 'es';
 // Traducciones
 const translations = {
     es: {
-        'job-title': 'Desarrollador full stack',
+        'job-title': 'Desarrollador Full Stack',
         'hero-description': 'Diseñando software robusto y escalable en la nube con microservicios modernos.',
         'about-title': 'Sobre mí',
-        'about-content': 'Soy Desarrollador Backend y Full Stack con sólida experiencia en el diseño e implementación de microservicios escalables, APIs RESTful y GraphQL y aplicaciones cloud-native. Mi mayor especialidad es Java (Spring Boot, Spring WebFlux), aunque también trabajo con confianza en Python, Node.js, .NET y JavaScript.<br><br>A lo largo de mi carrera he:',
+        'about-content': 'Soy Desarrollador Full Stack con sólida experiencia en el diseño e implementación de microservicios escalables, APIs RESTful y GraphQL y aplicaciones cloud-native. Mi mayor especialidad es Java (Spring Boot, Spring WebFlux), aunque también trabajo con confianza en Python, Node.js y JavaScript.<br><br>A lo largo de mi carrera he:',
         'about-list': `<li>Diseñado y desplegado microservicios reactivos y orientados a eventos, mejorando la escalabilidad y capacidad de respuesta de los sistemas.</li>
         <li>Construido APIs y servicios backend seguros y eficientes utilizando Java, Python, Node.js, FastAPI, Flask y Express.</li>
         <li>Desarrollado aplicaciones frontend modernas con Angular, React y Vue.js, garantizando alto rendimiento y una excelente experiencia de usuario.</li>
@@ -36,7 +36,7 @@ const translations = {
         'job-title': 'Full Stack Developer',
         'hero-description': 'Designing robust and scalable software in the cloud with modern microservices.',
         'about-title': 'About Me',
-        'about-content': 'I am a Backend and Full Stack Developer with solid experience in designing and implementing scalable microservices, RESTful APIs and GraphQL, and cloud-native applications. My main specialty is Java (Spring Boot, Spring WebFlux), although I also work confidently with Python, Node.js, .NET and JavaScript.<br><br>Throughout my career I have:',
+        'about-content': 'I am a Full Stack Developer with solid experience in designing and implementing scalable microservices, RESTful APIs and GraphQL, and cloud-native applications. My main specialty is Java (Spring Boot, Spring WebFlux), although I also work confidently with Python, Node.js and JavaScript.<br><br>Throughout my career I have:',
         'about-list': `<li>Designed and deployed reactive and event-driven microservices, improving system scalability and responsiveness.</li>
         <li>Built secure and efficient APIs and backend services using Java, Python, Node.js, FastAPI, Flask and Express.</li>
         <li>Developed modern frontend applications with Angular, React and Vue.js, ensuring high performance and excellent user experience.</li>
@@ -64,7 +64,7 @@ const translations = {
         'job-title': 'Desenvolvedor Full Stack',
         'hero-description': 'Projetando software robusto e escalável na nuvem com microsserviços modernos.',
         'about-title': 'Sobre Mim',
-        'about-content': 'Sou Desenvolvedor Backend e Full Stack com sólida experiência no design e implementação de microsserviços escaláveis, APIs RESTful e GraphQL, e aplicações cloud-native. Minha principal especialidade é Java (Spring Boot, Spring WebFlux), embora também trabalhe com confiança em Python, Node.js, .NET e JavaScript.<br><br>Ao longo da minha carreira tenho:',
+        'about-content': 'Sou Desenvolvedor Full Stack com sólida experiência no design e implementação de microsserviços escaláveis, APIs RESTful e GraphQL, e aplicações cloud-native. Minha principal especialidade é Java (Spring Boot, Spring WebFlux), embora também trabalhe com confiança em Python, Node.js e JavaScript.<br><br>Ao longo da minha carreira tenho:',
         'about-list': `<li>Projetado e implantado microsserviços reativos e orientados a eventos, melhorando a escalabilidade e capacidade de resposta dos sistemas.</li>
         <li>Construído APIs e serviços backend seguros e eficientes usando Java, Python, Node.js, FastAPI, Flask e Express.</li>
         <li>Desenvolvido aplicações frontend modernas com Angular, React e Vue.js, garantindo alto desempenho e excelente experiência do usuário.</li>
