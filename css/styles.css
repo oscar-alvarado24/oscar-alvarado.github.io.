@@ -15,6 +15,53 @@ body {
     background-color: var(--pastel-primary);
 }
 
+.navbar .language-selector .btn.nav-link.dropdown-toggle {
+    background: none !important;
+    border: none !important;
+    color: var(--text-color) !important;
+    padding: 0.5rem 0.75rem !important;
+    text-decoration: none !important;
+    display: flex !important;
+    align-items: center !important;
+    box-shadow: none !important;
+}
+
+.navbar .language-selector .btn.nav-link.dropdown-toggle:hover,
+.navbar .language-selector .btn.nav-link.dropdown-toggle:focus,
+.navbar .language-selector .btn.nav-link.dropdown-toggle:active {
+    background: none !important;
+    border: none !important;
+    color: var(--text-color) !important;
+    box-shadow: none !important;
+    outline: none !important;
+}
+
+.navbar .language-selector .dropdown-menu {
+    border: 1px solid #dee2e6;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
+
+.navbar .language-selector .dropdown-item {
+    display: flex !important;
+    align-items: center !important;
+    gap: 8px !important;
+    padding: 0.5rem 1rem !important;
+    background: none !important;
+    border: none !important;
+    width: 100% !important;
+    text-align: left !important;
+}
+
+.navbar .language-selector .flag-icon,
+.navbar .language-selector .current-flag {
+    width: 20px !important;
+    height: 15px !important;
+    border-radius: 2px !important;
+}
+
+.navbar .language-selector .current-flag {
+    margin-right: 8px !important;
+}
 .span-sombreado {
     background-color: #7bc2a8;
     /* Color de fondo similar al de la imagen */
@@ -163,7 +210,9 @@ h2 i {
 .text {
     text-align: justify;
 }
+
 .linkedin-spaces{
     margin-left: 0.05cm;
     margin-right: 0.20cm;
 }
+
